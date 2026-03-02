@@ -1,0 +1,35 @@
+{
+  "name": "nextjs-movie-app",
+  "version": "1.0.0",
+  "description": "A web application that allows users to search for movies by IMDb ID and displays detailed information along with AI-generated sentiment analysis.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "keywords": [
+    "nextjs",
+    "movie",
+    "imdb",
+    "sentiment",
+    "react"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@types/react": "19.2.14",
+    "jest": "latest",
+    "ts-jest": "latest",
+    "typescript": "latest"
+  }
+}
