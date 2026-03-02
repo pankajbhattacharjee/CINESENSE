@@ -106,7 +106,7 @@ CineSense/
 
 ## 🌐 Live Demo
 
-[Production Link](https://your-vercel-url.vercel.app)
+[Production Link](https://cinesence4.vercel.app/)
 
 ## 🔌 API Endpoints
 
