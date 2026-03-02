@@ -1,6 +1,15 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['image.tmdb.org', 'www.omdbapi.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'image.tmdb.org',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.omdbapi.com',
+      },
+    ],
   },
 };
